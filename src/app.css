@@ -1,0 +1,44 @@
+.wrapperContainer{
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 500px;
+    border: 1px solid #1f406b;
+    background-color: antiquewhite;
+    overflow-y: scroll;
+}
+.topBar{
+    background-color: #1f406b;
+    height: 50px;
+    font-size: 20px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.midContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.leftBar{
+    height: 450px;
+    border: 1px solid black;
+    width: 75px;
+    line-height: 60px;
+    background-color: gray;
+}
+.contactStyle{
+    text-decoration: none;
+}
+.chartStyle{
+    text-decoration: none;
+}
+.contactstyle{
+    text-decoration: none;
+    font-size: 20px;
+}

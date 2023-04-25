@@ -1,0 +1,32 @@
+.divStyle{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -49px;
+}
+.spanStyle{
+    margin: 30px;
+}
+.formWrapper{
+    border: 1px solid black;
+    margin-left: -230px;
+    position: absolute;
+    line-height: 2.5;
+}
+.saveStyle{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: -157px;
+}
+.formSaveStyle{
+    border: 1px solid black;
+    margin-top: 242px;
+    margin-left: -233px;
+    position: absolute;
+    width: 238px;
+    height: 138px;
+    padding: 10px;
+    line-height: 40px;
+    background: green;
+    color: white;
+    border-radius: 10px;
+}
